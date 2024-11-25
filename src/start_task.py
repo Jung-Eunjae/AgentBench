@@ -135,7 +135,7 @@ if __name__ == "__main__":
         for _ in range(int(args.start[i + 1])):
             _start_worker(args.start[i], base_port, controller_addr, config["definition"])
             base_port += 1
-            time.sleep(1)
+            time.sleep(0.1)
 
     while True:
         input()
