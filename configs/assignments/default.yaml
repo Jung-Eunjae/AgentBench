@@ -5,11 +5,11 @@ concurrency:
     dbbench-std: 5
     os-std: 5
   agent:
-    vicuna-7b-v1.5: 5
+    vicuna-7b: 5
 
 assignments: # List[Assignment] | Assignment
   - agent: # "task": List[str] | str ,  "agent": List[str] | str
-      - vicuna-7b-v1.5
+      - vicuna-7b
     task:
       - dbbench-std
       - os-std
